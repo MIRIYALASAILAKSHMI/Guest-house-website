@@ -1,0 +1,260 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+}
+
+/* Global Styles */
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+/* Header Styles */
+.navbar {
+    background-color: #fff;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: #337ab7;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    color: #23527c;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: linear-gradient(to bottom, #fff, #f7f7f7);
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    border: none;
+    font-family: 'Arial', sans-serif; /* Font family for buttons */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #fff; /* White background on hover */
+    color: #000; /* Black text on hover */
+    border: 1px solid #000; /* Black border */
+}
+
+/* About Section Styles */
+.about {
+    padding: 5rem 0;
+    background-color: #f7f7f7;
+}
+
+.about img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Rooms Section Styles */
+.rooms {
+    padding: 5rem 0;
+    background-color: #fff;
+}
+
+.rooms h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rooms img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.rooms h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rooms p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Services Section Styles */
+.services {
+    padding: 5rem 0;
+    background-color: #f7f7f7;
+}
+
+.services h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.services img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.services h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Gallery Section Styles */
+.gallery {
+    padding: 5rem 0;
+    background-color: #fff;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Contact Section Styles */
+.contact {
+    padding: 5rem 0;
+    background-color: #f7f7f7;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.contact input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    clear: both;
+}
+
+footer p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
